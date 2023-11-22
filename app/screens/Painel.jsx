@@ -251,7 +251,6 @@ const Painel = () => {
                                                     </Label>
                                                     <Input
                                                         id="name"
-                                                        
                                                         defaultValue={produto.manutencao}
                                                         onChange={(e) => handleChange(produto.docId, "manutencao", e.target.value)}
                                                         className="col-span-3"
